@@ -1,6 +1,7 @@
-pragma solidity >=0.4.25 <0.7.0;
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.4.25 <0.8.0;
 
-import "truffle/Assert.sol";
+import "../node_modules/truffle/build/Assert.sol";
 import "truffle/DeployedAddresses.sol";
 import "../contracts/MetaCoin.sol";
 
